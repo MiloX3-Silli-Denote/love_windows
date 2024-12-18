@@ -190,7 +190,6 @@ function OpenWindow.new(files)
 
     local name = files.name;
     local callback = files.callback;
-    files.communication = nil;
     files.name = nil;
     files.callback = nil;
 
