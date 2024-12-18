@@ -1,5 +1,8 @@
 -- can be placed in empty project as main.lua and create a working instance
 
+--* press the "o" key on the smaller window and it will close and begin printing into the console
+--* press the "p" key on the larger window and it will close the smaller window and not print anything to the console
+
 OpenWindow = require("openWindow");
 
 local unfilteredArgs = nil;
